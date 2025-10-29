@@ -1,32 +1,59 @@
 <script setup>
+import AutopsyDigitalForensics from '/public/Leanjua/Autopsy Digital Forensics.png'
+import AWS from '/public/Leanjua/aws.png'
+import Cisco from '/public/Leanjua/cisco.png'
+import CSharp from '/public/Leanjua/csharp.png'
+import CSS from '/public/Leanjua/css.png'
+import Docker from '/public/Leanjua/docker.png'
+import Express from '/public/Leanjua/express.png'
+import Flutter from '/public/Leanjua/flutter.png'
+import GraphQL from '/public/Leanjua/graphql.png'
+import HTML from '/public/Leanjua/html.png'
+import Java from '/public/Leanjua/java.png'
+import JavaScript from '/public/Leanjua/Js.png' 
+import KaliLinux from '/public/Leanjua/Kali, Linux.png'
+import TypeScript from '/public/Leanjua/mecanografiado.png' 
+import MongoDB from '/public/Leanjua/mongodb.png'
+import MySQL from '/public/Leanjua/mysql.png'
+import NodeJS from '/public/Leanjua/nodejs.png'
+import OrangeWhile from '/public/Leanjua/orangewhile.png'
+import Python from '/public/Leanjua/piton.png'
+import PostgreSQL from '/public/Leanjua/postgresql.png'
+import React from '/public/Leanjua/react_.png'
+import RedHat from '/public/Leanjua/redhat_.png'
+import TailwindCSS from '/public/Leanjua/tailwindcss.png'
+import VisualStudio from '/public/Leanjua/visual-basico.png'
+import VueJS from '/public/Leanjua/vuejs.png'
+
+
 import { ref } from 'vue'
 
 const skills = ref([
-  { name: 'Autopsy Digital Forensics', img: '/public/Leanjua/Autopsy Digital Forensics.png' },
-  { name: 'AWS', img: '/public/Leanjua/aws.png' },
-  { name: 'Cisco', img: '/public/Leanjua/cisco.png' },
-  { name: 'C#', img: '/public/Leanjua/csharp.png' },
-  { name: 'CSS', img: '/public/Leanjua/css.png' },
-  { name: 'Docker', img: '/public/Leanjua/docker.png' },
-  { name: 'Express', img: '/public/Leanjua/express.png' },
-  { name: 'Flutter', img: '/public/Leanjua/flutter.png' },
-  { name: 'GraphQL', img: '/public/Leanjua/graphql.png' },
-  { name: 'HTML', img: '/public/Leanjua/html.png' },
-  { name: 'Java', img: '/public/Leanjua/java.png' },
-  { name: 'JavaScript', img: '/public/Leanjua/Js.png' },
-  { name: 'Kali Linux', img: '/public/Leanjua/Kali, Linux.png' },
-  { name: 'TypeScript', img: '/public/Leanjua/mecanografiado.png' },
-  { name: 'MongoDB', img: '/public/Leanjua/mongodb.png' },
-  { name: 'MySQL', img: '/public/Leanjua/mysql.png' },
-  { name: 'Node.js', img: '/public/Leanjua/nodejs.png' },
-  { name: 'OrangeWhile', img: '/public/Leanjua/orangewhile.png' },
-  { name: 'Python', img: '/public/Leanjua/piton.png' },
-  { name: 'PostgreSQL', img: '/public/Leanjua/postgresql.png' },
-  { name: 'React', img: '/public/Leanjua/react_.png' },
-  { name: 'Red Hat', img: '/public/Leanjua/redhat_.png' },
-  { name: 'Tailwind CSS', img: '/public/Leanjua/tailwindcss.png' },
-  { name: 'Visual Studio', img: '/public/Leanjua/visual-basico.png' },
-  { name: 'Vue.js', img: '/public/Leanjua/vuejs.png' }
+  { name: 'Autopsy Digital Forensics', img: AutopsyDigitalForensics },
+  { name: 'AWS', img: AWS },
+  { name: 'Cisco', img: Cisco },
+  { name: 'C#', img: CSharp },
+  { name: 'CSS', img: CSS },
+  { name: 'Docker', img: Docker },
+  { name: 'Express', img: Express },
+  { name: 'Flutter', img: Flutter },
+  { name: 'GraphQL', img: GraphQL },
+  { name: 'HTML', img: HTML },
+  { name: 'Java', img: Java },
+  { name: 'JavaScript', img: JavaScript },
+  { name: 'Kali Linux', img: KaliLinux },
+  { name: 'TypeScript', img: TypeScript },
+  { name: 'MongoDB', img: MongoDB },
+  { name: 'MySQL', img: MySQL },
+  { name: 'Node.js', img: NodeJS },
+  { name: 'OrangeWhile', img: OrangeWhile },
+  { name: 'Python', img: Python },
+  { name: 'PostgreSQL', img: PostgreSQL },
+  { name: 'React', img: React },
+  { name: 'Red Hat', img: RedHat },
+  { name: 'Tailwind CSS', img: TailwindCSS },
+  { name: 'Visual Studio', img: VisualStudio },
+  { name: 'Vue.js', img: VueJS }
 ])
 </script>
 

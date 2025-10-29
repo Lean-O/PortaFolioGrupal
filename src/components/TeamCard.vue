@@ -51,7 +51,7 @@ const getCustomRole = (name) => {
     return 'Docente y Ciberdefenza'
   }
   if (nameLower.includes('lautaro')) {
-    return 'Especialista en Inteligencia Artificial'
+    return 'Desarrollador de Inteligencia Artificial'
   }
   // Gabriel ya no tiene rol custom, se eliminó "Backend Engineer"
   return null
@@ -88,7 +88,7 @@ const getLinks = (name) => {
   if (nameLower.includes('ezequiel') || nameLower.includes('eze')) {
     return {
       github: 'https://github.com/ezediaz08',
-      website: null
+      website: 'https://ezequeildiaz-vuejs.netlify.app'
     }
   }
   
@@ -96,7 +96,7 @@ const getLinks = (name) => {
   if (nameLower.includes('mariano')) {
     return {
       github: 'https://github.com/mariannorasg',
-      website: null
+      website: 'https://mariannorasgido.netlify.app/'
     }
   }
   
@@ -104,7 +104,7 @@ const getLinks = (name) => {
   if (nameLower.includes('kevin')) {
     return {
       github: 'https://github.com/kevincastilla4050',
-      website: null
+      website: 'https://portafoliokevincastilla.netlify.app/'
     }
   }
   
@@ -148,7 +148,7 @@ const nameLower = (name) => name.toLowerCase()
           class="social-link"
           title="Sitio Web"
         >
-          <img src="/web.png" alt="Website" class="social-icon" />
+          <img src="/web.png" alt="Sitio Web" class="social-icon" />
         </a>
         
         <a 
